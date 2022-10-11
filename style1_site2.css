@@ -1,0 +1,35 @@
+h1{
+	color: burlywood;
+	font-family: verdana;
+	font-size: 2em;
+}
+
+button{
+	border: 2px solid black;
+	border-radius: 26px;
+	text-align: center;
+	padding: 15px 32px;
+	background-color: lightsteelblue;
+	margin-top: 3px;
+	width: 300px;
+}
+
+div{
+	border: 2px solid lightsteelblue;
+	border-radius: 26px;
+	margin-left: 35%;
+	margin-right: 35%;
+	padding: 2%;
+	width: 50%;
+}
+
+body{
+	background-color: lightslategrey;
+	text-align: center;
+}
+
+button:hover{
+	color: lightsteelblue;
+	background-color: black;
+	border: 2px solid lightsteelblue;
+}

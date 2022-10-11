@@ -1,0 +1,28 @@
+.flagusa{
+	background-image:url(drapeauusa.png);
+	width: 300px;
+	height: 150px;
+	background-size: cover;background-repeat: no-repeat;
+	text-align: center;
+	}
+.flagfrance{
+	background-image: url(drapeaufrance.png);
+	width: 300px;
+	height: 150px;
+	text-align: center;
+	background-size: cover;
+}
+table{
+	width: 100%;
+	border: 3px solid blue;
+}
+thead{
+	background-color: royalblue;
+	height: 100px;
+
+}
+h1{
+	color: royalblue;
+	top: 30px;
+	left: 30px;
+}
