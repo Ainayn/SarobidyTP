@@ -7,16 +7,18 @@ h1{
 table{
 	background-color: paleturquoise;
 	width: 100%;
+	border-collapse: separate;
 }
 
 td{
-	border: 1px solid black;
-	padding: 15px;
+	padding: 10px;
 	border-radius: 30px;
 	height: 50px;
 	width: 150px;
 	font-size: 1.5em;
 	text-align: center;
+	background-color: lightgrey;
+	border: 3px solid black;
 }
 input{
 	display: table-cell;
@@ -25,11 +27,14 @@ input{
 	border-radius: 30px;
 	flex: 2;
 	text-align: center;
+	border: 1px solid white;
+	background-color: white;
 
 }
 
 input::placeholder{
 	text-align: center;
+	border: 1px solid white;
 }
 
 button{
@@ -38,6 +43,7 @@ button{
 	display: inline-block;
 	border-radius: 30px;
 	font-size: 1em;
+	background-color: lightgrey;
 
 
 }
@@ -45,4 +51,10 @@ button{
 input[type=text]
 {
 	font-size: 1em;
+}
+
+button:hover{
+	color: paleturquoise;
+	background-color: black;
+	border: 2px solid white;
 }
