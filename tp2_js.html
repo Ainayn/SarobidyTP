@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title></title>
+</head>
+<body bgcolor="LightSeaGreen">
+<script type="text/javascript">
+	function calcul_moyenne()
+	{
+		var note1=prompt("Donner la première note:");
+		var note2=prompt("Donner la deuxième note:");
+		var note3=prompt("Donner la troisième note:");
+	var somme = note1*2 + note2*3 + note3*3;
+	var moyenne = somme/8;
+	document.write("voici la somme:   "+somme+"");
+
+	document.write("voici la moyenne:   "+moyenne+"");
+	if (moyenne>=10)
+		document.write("Vous êtes admis");
+	else
+		document.write("Vous êtes redoublant");
+	}
+	function age_test()
+	{
+		var age=prompt("Donner votre âge");
+		if (age>100  || age<=0)
+		{
+			document.bgColor="red";
+			alert("Attention âge invalide");
+			
+		}
+		else
+		{
+			alert("Age valide");
+			document.bgColor="green";
+		}
+
+	}
+	function simple_affichage()
+	{
+		var nom=prompt("Quel est votre nom?:");
+		var prenom=prompt("Quel est votre prénom?:");
+		document.write("<div style='background-color:SlateBlue; border:2px solid blue; height:30px;border-radius:25px;width:50%;text-align:center; margin:auto; padding-top:15px font-size:1em;'>");
+		document.write("<p1 style='color:red';>Bonjour  " + prenom +"  "+ nom+ "</p1>");
+		document.write("</div>")
+	}
+
+	function test_color()
+	{
+		var couleur=prompt("Entrez une couleur:");
+		if (couleur == "rouge" || couleur == "ROUGE")
+			document.bgColor="red";
+		else if (couleur == "bleu" || couleur == "BLEU")
+			document.bgColor="blue";
+		else if (couleur == "vert" || couleur == "VERT")
+			document.bgColor="green";
+		else
+			alert("ERROR : Couleur non reconnue");
+	}
+</script>
+<h1> 4 Exercices Simples en JAVASCRIPT </h1>
+<button onclick="calcul_moyenne()"> Calculer la moyenne</button>
+<button onclick="age_test()">Tester l'âge</button>
+<button onclick="simple_affichage()">Affichage simple</button>
+<button onclick="test_color()">Tester couleur</button>
+<a href="index.html"> Revenir à la page principal</a>
+</body>
+</html>
