@@ -5,14 +5,15 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<title></title>
 	<script language="javascript">
-		function parite
+		function parite(){
+			var v;
+			v = Number(document.getElementById("a").value);
+			if (v%2==0)
+			{
+				alert('Ce nombre est pair');
+			}
+		else
 		{
-			var v = "";
-			v = document.f1.a.value;
-			if (v%2==0){
-			alert('Ce nombre est pair');
-		}
-		else{
 			alert('Ce nombre est impair');
 		} 
 
@@ -22,7 +23,7 @@
 <body>
 <form name="f2">
 Entrez un nombre : <input type="text" name="a" id="a"><br>
-<input type="button" name="b" value="Verifier" onClick="parite()">
+<button onclick="parite()">Verifier</button>
 </form>
 </body>
 </html>
