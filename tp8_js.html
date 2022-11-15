@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title></title>
+	<script language="javascript">
+		var nbClic=0;
+		function compteClic(){
+			nbClic++;
+			document.getElementById('texte1').value=nbClic;
+		}
+	</script>
+</head>
+<body>
+<div style="text-align: center"> Cliquer sur le bouton :
+<input type="button" value="Cliquer" onClick="compteClic()"><br>
+Vous avez cliqué <input type="text" id=texte1 value="0" size="3" readonly="true"> fois.</div>
+</body>
+</html>
