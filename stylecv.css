@@ -1,0 +1,45 @@
+.C{
+	border: 3px solid red;
+		border-radius: 6px;
+		width: 95%;
+		width: 95%;
+		padding: 1%;
+		margin-top: 4%;
+		border-radius: 10px;
+
+}
+
+h2{
+	background: grey;
+}
+
+.F{
+	border: 3px solid blue;
+		border-radius: 6px;
+		width: 95%;
+		width: 95%;
+		padding: 1%;
+		border-radius: 10px;
+		margin-top: 3%;
+
+}
+
+.E{
+	border: 3px solid blue;
+		border-radius: 6px;
+		width: 95%;
+		width: 95%;
+		padding: 1%;
+		border-radius: 10px;
+		margin-top: 3%;
+
+}
+
+header{
+	border: 3px solid grey;
+		border-radius: 6px;
+		width: 95%;
+		padding: 1%;
+		margin-top: 4%;
+		border-radius: 10px;
+}
